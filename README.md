@@ -23,10 +23,10 @@ Include the neural network model diagram.
 Write your own steps
 
 ### STEP 2:
+Train a suitable machine learning model using the labeled customer segments (A, B, C, D).
 
 ### STEP 3:
-
-
+Use the trained model to predict and assign the correct segment to new market customers.
 ## PROGRAM
 
 ### Name:Dhivya Dharshini B

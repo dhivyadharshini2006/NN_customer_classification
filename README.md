@@ -1,6 +1,5 @@
 # Developing a Neural Network Classification Model
-## NAME:DHIVYA DHARSHINI B
-## REG NO:212223240031
+
 ## AIM
 
 To develop a neural network classification model for the given dataset.
@@ -15,18 +14,42 @@ You are required to help the manager to predict the right group of the new custo
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+
+<img width="766" height="873" alt="Screenshot 2026-02-09 221457" src="https://github.com/user-attachments/assets/e478b0fd-c9a3-491a-b30f-7554a78ce629" />
+
 
 ## DESIGN STEPS
 
 ### STEP 1:
-Write your own steps
+Import the required libraries for data handling and neural networks.
 
 ### STEP 2:
-Train a suitable machine learning model using the labeled customer segments (A, B, C, D).
+Load the dataset and explore its structure.
 
 ### STEP 3:
-Use the trained model to predict and assign the correct segment to new market customers.
+Clean the dataset and handle missing values if present.
+
+### STEP 4:
+Encode categorical variables into numerical format.
+
+### STEP 5:
+Normalize or scale the numerical features.
+
+### STEP 6:
+Split the dataset into training and testing sets.
+
+### STEP 7:
+Define the neural network architecture (64 → 32 → 16 → 8 → 4).
+
+### STEP 8:
+Select CrossEntropyLoss as the loss function and Adam as the optimizer.
+
+### STEP 9:
+Train the model using forward pass, loss calculation, backpropagation, and weight updates.
+
+### STEP 10:
+Evaluate the model using accuracy, confusion matrix, and classification report.
+
 ## PROGRAM
 
 ### Name:Dhivya Dharshini B
